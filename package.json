@@ -1,0 +1,51 @@
+{
+  "name": "source-maps_issue_demo",
+  "version": "1.0.0",
+  "description": "",
+  "author": "legends",
+  "license": "ISC",
+  "dependencies": {},
+  "resolutions": {
+    "@types/tapable": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/extract-text-webpack-plugin": "^3.0.2",
+    "@types/html-webpack-plugin": "^2.30.3",
+    "@types/jsonwebtoken": "^7.2.5",
+    "@types/node": "^9.4.6",
+    "@types/webpack": "^4.1.0",
+    "@types/webpack-env": "^1.13.5",
+    "autoprefixer": "^8.0.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.9",
+    "csv-loader": "^2.1.1",
+    "exports-loader": "^0.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "gulp-sass": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.0.6",
+    "imports-loader": "^0.8.0",
+    "less": "^3.0.0",
+    "less-loader": "^4.0.5",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "postcss-cli": "^5.0.0",
+    "postcss-loader": "^2.1.0",
+    "precss": "^3.1.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "script-loader": "^0.7.2",
+    "source-map": "^0.7.2",
+    "style-loader": "^0.20.1",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.1",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "verbose": "^0.2.3",
+    "webpack": "^4.1.1",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "scripts": {
+    "prod": "webpack --mode production --display-modules --progress --display-error-details"   
+  }
+}

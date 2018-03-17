@@ -1,0 +1,30 @@
+// https://www.typescriptlang.org/docs/handbook/compiler-options.html
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    //"rootDir": "src",
+    "sourceMap": false, // false: no *.map files are generated
+    "inlineSources": false, // true: .map file will be generated into the compiled JS file
+    // "baseUrl": "src",
+    
+    //"types": [ "node", "webpack-env" ], // only include types of node|webpack-env|
+    //"allowJs": true,
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    //"listFiles": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise"
+    ]
+  },
+  // "include": [
+  //   "./src/**/*"
+  // ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
