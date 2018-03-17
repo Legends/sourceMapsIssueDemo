@@ -4,5 +4,5 @@
 
 <u>Clone the repo and:</u>
 
-npm install<br/>
+yarn install<br/>
 npm run prod
