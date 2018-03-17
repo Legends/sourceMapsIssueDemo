@@ -4,5 +4,5 @@
 
 <u>Clone the repo and:</u>
 
-npm install
+npm install<br/>
 npm run prod
